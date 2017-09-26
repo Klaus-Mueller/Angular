@@ -23,7 +23,6 @@ export class AppComponent {
   selectedHero : Hero;
   // Click hero action
   onSelect(hero: Hero) : void {
-    console.log(hero);
     this.selectedHero = hero;
   }
 }
